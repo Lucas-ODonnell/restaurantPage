@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: courier;
+}
+
+html { 
+	background: url(../images/coffeebeansandcup.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+table {
+	overflow: auto;
+	border-collapse: collapse;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	color: white;
+	background-color: orange;
+	font-size: 2rem;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+hr {
+	border-top: 1px dotted white;
+}
+
+
+
+.landing-title {
+	color: white;
+	font-size: 5rem;
+	font-weight: bold;
+	margin-top: 64px;
+	margin-bottom: 16px;
+	text-decoration: underline;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.informational-box {
+	position: fixed;
+	top: 30%;
+	left: 25%;
+	right: 25%;
+}
+
+.blurb {
+	border: none;
+	background-color: rgba(128,128,128, .75);
+}
+
+.blurb-title {
+	font-size: 3rem;
+	font-weight: bold;
+	color: rgb(29,44,181);
+	text-align: center;
+	padding-top: 16px;
+
+}
+
+.blurb-text {
+	font-size: 2rem;
+	font-weight: italic;
+	color: black;
+	padding: 16px 30px 16px 30px;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 0px;
+	height: 38px;
+	left: 0;
+	right: 0;
+	position: fixed;
+	z-index: 1030;
+	background-color: rgba(128, 128, 128, .75);
+}
+
+.navbar-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 38px;
+}
+
+
+.navbar-nav {
+	background-color: rgba(128,128,128, .75);
+}
+
+.nav-item {
+	margin-left: 32px;
+	margin-right: 32px;
+	text-decoration: none;
+	font-size: 1.5rem;
+	border: none;
+	background: none;
+	color: indigo;
+}
+
+.nav-item:hover {
+	font-size: 2rem;
+}
+
+.active {
+	font-weight: 900;
+	/*For the navbar menu*/
+}
+
+.home-display {
+	display: none;
+	/*display:block*/
+}
+
+.display-menu {
+	display: none;
+}
+
+.contact-display {
+	display: none;
+}
+
+.current-menu {
+	display: block;
+}
+
+.coffee-menu {
+	border-bottom: 5px dotted white;
+}
+
+.contact-information {
+	background-color: rgba(128,128,128, .75);
+	padding-top: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+
+}
+
+.contact-paragraph {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: black;
+	font-style: italic;
+ 
+}
