@@ -26,7 +26,7 @@ const home = () => {
 	divTwo.append(h2);
 
 	p.classList.add('blurb-text');
-	p.innerHTML = 'Here at LKO Coffee Co-Op, we strive to bring you great coffee at a price, that is fair to you, our baristas, and the people who grow the coffee we serve here. From the farm where the beans are grown, to the cappuccino we serve you at our bar, you can rest easy knowing that no humans or animals were exploited in the making of your delicious beverage. <br><br>See you here! &#9773;';
+	p.innerHTML = 'Here at LKO Coffee Co-Op, we strive to bring you great coffee at a price, that is fair to you, our baristas, and the people who grow the coffee we serve here. From the farm where the beans are grown, to the cappuccino we serve you at our bar, you can rest easy knowing that no humans or animals were exploited in the making of your delicious beverage. <br><br>See you here!';
 
 	divTwo.append(p);
 
